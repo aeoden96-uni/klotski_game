@@ -1,0 +1,177 @@
+.highscore{
+    display: inline-block;
+	width:400px;
+	height:150px;
+    border-color:black;
+    border-style:solid;
+    border-width:10px;
+}
+
+
+
+th { border: none;}
+
+.playerInput{
+    width:300px;
+	height:150px;
+    float: left;
+    border-spacing: 0; 
+    border-collapse: collapse; 
+    border-color:black;
+    border-style:solid;
+    border-width:10px;
+	text-align:center;
+}
+
+.infoBar{
+    width:400px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+
+/* The alert message box */
+.alert { 
+    padding: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    width:300px;
+  
+  }
+  
+  .success { 
+    padding: 10px;
+    background-color: #009900; /* Green */
+    color: white;
+    margin-bottom: 15px;
+    width:300px;
+  
+  }
+  
+  
+  
+/* ***BLOCKS*** */
+.playTable { 
+    
+    float: left;
+    width:300px;
+	height:300px;
+    border-spacing: 0; 
+    border-collapse: collapse; 
+    border-color:black;
+    border-style:solid;
+    border-width:0px;
+    font-family:Arial, sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+.win{
+    color:#080808;
+    background-color: #c0ddee;
+}
+.wall{
+    color:#ffffff;
+    background-color: #2e302e;
+}
+.empty{
+    color:#000000;
+    background-color: #ffffff;
+}
+.brick{
+    -webkit-box-shadow:inset 0px 0px 0px 5px rgb(255, 255, 255);
+    -moz-box-shadow:inset 0px 0px 0px 5px rgb(255, 255, 255);
+    box-shadow:inset 0px 0px 0px 5px rgb(255, 255, 255);
+    
+
+    font-size:15px;
+}
+
+.cl1{
+    color:#000000;
+    background-color: #30e219;
+}
+
+.cl2{
+    color:#000000;
+    background-color: #21c5e2;
+}
+
+.cl3{
+    color:#000000;
+    background-color: #0fcc0f;
+}
+
+.cl4{
+    color:#000000;
+    background-color: #cbec0d;
+}
+
+.cl5{
+    color:#000000;
+    background-color: #b3e00d;
+}
+
+.cl6{
+    color:#000000;
+    background-color: #a115e2;
+}
+
+.cl7{
+    color:#000000;
+    background-color: #eb08eb;
+}
+.cl8{
+    color:#000000;
+    background-color: #6157be;
+}
+.cl9{
+    color:#000000;
+    background-color: #ecb10e;
+}
+.cl10{
+    color:#000000;
+    background-color: #c71414;
+}
+
+.imaGore{
+    vertical-align: top;
+    box-shadow:inset 0px -2px 0px 2px rgb(255, 255, 255);
+ 
+    
+}
+.imaLijevo{
+    box-shadow:inset -2px 0px 0px 2px rgb(255, 255, 255);
+
+}
+.imaDesno{
+    box-shadow:inset 2px 0px 0px 2px rgb(255, 255, 255);
+}
+
+.imaDole{
+    vertical-align: bottom;
+    box-shadow:inset 0px 2px 0px 2px rgb(255, 255, 255);
+
+    padding-bottom: 0px !important;
+}
+.imaDole.imaLijevo{
+    vertical-align: bottom;
+    box-shadow:inset -1px 1px 0px 1px rgb(255, 255, 255);
+}
+
+.imaGore.imaLijevo{
+    box-shadow:inset -1px -1px 0px 1px rgb(255, 255, 255);
+}
+.imaDole.imaDesno{
+    vertical-align: bottom;
+    box-shadow:inset 1px 1px 0px 1px rgb(255, 255, 255);
+}
+.imaGore.imaDesno{
+    box-shadow:inset 1px -1px 0px 1px rgb(255, 255, 255);
+}
+
+
+
+
+  
